@@ -1,0 +1,390 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smooththemes\n"
+"POT-Creation-Date: 2013-07-04 11:17+0700\n"
+"PO-Revision-Date: 2013-07-04 11:17+0700\n"
+"Last-Translator: Sa Hoang Truong <shrimp2t2gmail.com>\n"
+"Language-Team: Sa\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_x;_n\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:17 ../comments.php:32
+msgid "No Responses"
+msgstr ""
+
+#: ../comments.php:17 ../comments.php:32
+msgid "One Response"
+msgstr ""
+
+#: ../comments.php:17 ../comments.php:32
+msgid "% Responses"
+msgstr ""
+
+#: ../comments.php:23
+msgid "Older Comments"
+msgstr ""
+
+#: ../comments.php:24
+msgid "Newer Comments"
+msgstr ""
+
+#: ../comments.php:33
+msgid "to"
+msgstr ""
+
+#: ../comments.php:37
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:46 ../comments.php:73
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../comments.php:50
+msgid "You must be"
+msgstr ""
+
+#: ../comments.php:54
+msgid "to post a comment."
+msgstr ""
+
+#: ../comments.php:68
+#, php-format
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: ../comments.php:72
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../comments.php:74
+msgid "Cancel Reply"
+msgstr ""
+
+#: ../comments.php:75
+msgid "Post Comment"
+msgstr ""
+
+#: ../comments.php:76
+msgid "Comment"
+msgstr ""
+
+#: ../comments.php:77
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../comments.php:78
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: ../comments.php:79
+msgid "Your email address will not be published."
+msgstr ""
+
+#: ../comments.php:82
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:83
+msgid "Email"
+msgstr ""
+
+#: ../comments.php:84
+msgid "Website"
+msgstr ""
+
+#: ../header.php:71
+msgid "type and hit enter..."
+msgstr ""
+
+#: ../searchform.php:4
+msgid "Search"
+msgstr ""
+
+#: ../st-framework/lib/lib-functions.php:94
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../st-framework/lib/lib-functions.php:611
+#: ../st-framework/lib/lib-functions.php:637
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: ../st-framework/lib/lib-functions.php:739
+msgid "View Detail"
+msgstr ""
+
+#: ../st-framework/lib/lib-functions.php:739
+#: ../st-framework/lib/lib-functions.php:772
+msgid "Open Detail"
+msgstr ""
+
+#: ../st-framework/lib/lib-functions.php:740
+#: ../st-framework/lib/lib-functions.php:773
+#: ../st-framework/lib/lib-functions.php:827
+msgid "Open Gallery"
+msgstr ""
+
+#: ../st-framework/lib/shortcode.php:566
+msgid "All"
+msgstr ""
+
+#: ../st-framework/lib/shortcode.php:851
+msgid "Loading.."
+msgstr ""
+
+#: ../st-framework/lib/shortcode.php:851
+msgid "Load more"
+msgstr ""
+
+#: ../st-framework/lib/st-ajax.php:132
+#, php-format
+msgid "Date: %s"
+msgstr ""
+
+#: ../st-framework/lib/st-ajax.php:133
+#, php-format
+msgid "Tags: %s"
+msgstr ""
+
+#: ../st-framework/lib/st-filters.php:27
+msgid "..."
+msgstr ""
+
+#: ../st-framework/lib/widgets/ads-125.php:16
+msgid "ST Ads 125x125"
+msgstr ""
+
+#: ../st-framework/lib/widgets/ads-125.php:17
+msgid "A widget that allows the display of ads 125x125"
+msgstr ""
+
+#: ../st-framework/lib/widgets/ads-125.php:130
+#: ../st-framework/lib/widgets/flickr.php:78
+#: ../st-framework/lib/widgets/recent-comments.php:32
+#: ../st-framework/lib/widgets/recent-posts.php:32
+#: ../st-framework/lib/widgets/twitter.php:34
+msgid "Title:"
+msgstr ""
+
+#: ../st-framework/lib/widgets/ads-125.php:139
+#, php-format
+msgid "Ads %d image url:"
+msgstr ""
+
+#: ../st-framework/lib/widgets/ads-125.php:143
+#, php-format
+msgid "Ads %d link:"
+msgstr ""
+
+#: ../st-framework/lib/widgets/ads-125.php:159
+msgid "Randomize ads ?"
+msgstr ""
+
+#: ../st-framework/lib/widgets/flickr.php:84
+msgid "Flickr ID:"
+msgstr ""
+
+#: ../st-framework/lib/widgets/flickr.php:90
+msgid "Number of Photos:"
+msgstr ""
+
+#: ../st-framework/lib/widgets/flickr.php:100
+msgid "Display (random or latest):"
+msgstr ""
+
+#: ../st-framework/lib/widgets/flickr.php:109
+msgid "Type (user or group):"
+msgstr ""
+
+#: ../st-framework/lib/widgets/recent-comments.php:10
+msgid "Display Recent Comment with avatar"
+msgstr ""
+
+#: ../st-framework/lib/widgets/recent-comments.php:37
+msgid "How many comments to show ? "
+msgstr ""
+
+#: ../st-framework/lib/widgets/recent-posts.php:9
+msgid "ST Recent Posts"
+msgstr ""
+
+#: ../st-framework/lib/widgets/recent-posts.php:10
+msgid "Display Recent Posts"
+msgstr ""
+
+#: ../st-framework/lib/widgets/recent-posts.php:37
+msgid "How many posts to show ? "
+msgstr ""
+
+#: ../st-framework/lib/widgets/twitter.php:9
+msgid "ST Twitter"
+msgstr ""
+
+#: ../st-framework/lib/widgets/twitter.php:39
+msgid "Username:"
+msgstr ""
+
+#: ../st-framework/lib/widgets/twitter.php:44
+msgid "How many items to show ? "
+msgstr ""
+
+#: ../templates/404.php:4
+msgid "404"
+msgstr ""
+
+#: ../templates/404.php:8
+msgid ""
+"  We're sorry, but we can't find the page you were looking for. It's "
+"probably some thing we've done wrong but now we know about it we'll try to "
+"fix it. In the meantime, try one of these options:"
+msgstr ""
+
+#: ../templates/404.php:11
+msgid "Go to Home page"
+msgstr ""
+
+#: ../templates/404.php:11
+msgid "or search this site"
+msgstr ""
+
+#: ../templates/list-post.php:16 ../templates/search.php:15
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+
+#: ../templates/page-title.php:35
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: ../templates/page-title.php:41
+msgid "Seach for :"
+msgstr ""
+
+#: ../templates/page-title.php:45
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: ../templates/page-title.php:47
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: ../templates/page-title.php:47
+msgid "F Y"
+msgstr ""
+
+#: ../templates/page-title.php:49
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: ../templates/page-title.php:49
+msgid "Y"
+msgstr ""
+
+#: ../templates/page-title.php:51
+msgid "Blog Archives"
+msgstr ""
+
+#: ../templates/page-title.php:55
+msgid "Oops, Page not found."
+msgstr ""
+
+#: ../templates/single.php:37
+msgid "Pages:"
+msgstr ""
+
+#: ../templates/single.php:42
+msgid "Next page"
+msgstr ""
+
+#: ../templates/single.php:43
+msgid "Previous page"
+msgstr ""
+
+#: ../templates/single.php:52
+msgid "Tags:"
+msgstr ""
+
+#: ../templates/single.php:68 ../templates/loop/loop-post.php:44
+msgid "0 Comment"
+msgstr ""
+
+#: ../templates/single.php:68 ../templates/loop/loop-post.php:44
+msgid "1 Comment"
+msgstr ""
+
+#: ../templates/single.php:68 ../templates/loop/loop-post.php:44
+msgid "% Comments"
+msgstr ""
+
+#: ../templates/single.php:76
+msgid "Share"
+msgstr ""
+
+#: ../templates/single.php:114
+msgid "Author Description"
+msgstr ""
+
+#: ../templates/forms/contact.php:5
+msgid "Your Name"
+msgstr ""
+
+#: ../templates/forms/contact.php:5 ../templates/forms/contact.php:12
+#: ../templates/forms/contact.php:20
+msgid "required"
+msgstr ""
+
+#: ../templates/forms/contact.php:12
+msgid "Your E-Mail Address"
+msgstr ""
+
+#: ../templates/forms/contact.php:20
+msgid "Subject"
+msgstr ""
+
+#: ../templates/forms/contact.php:26
+msgid "Message:"
+msgstr ""
+
+#: ../templates/forms/contact.php:31
+msgid ""
+"Thank you for contacting us. We will get back to you as soon as possible."
+msgstr ""
+
+#: ../templates/forms/contact.php:32
+msgid ""
+"Due to an unknown error, your form was not submitted. Please resubmit it or "
+"try later."
+msgstr ""
+
+#: ../templates/forms/contact.php:36
+msgid "Submit Now"
+msgstr ""
+
+#: ../templates/loop/loop-post.php:49
+msgid "Read more &#8594;"
+msgstr ""

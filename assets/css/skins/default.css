@@ -1,0 +1,52 @@
+.bg,
+#header .socials  li a:hover,
+.social-icons li a:hover,
+.header-right-inner .social-icons li a.search-form-icon:hover,
+.header-right-inner .social-icons li a.search-form-icon.active,
+.controls button:hover,
+.btn, input.btn, a.btn, .button , input.button, a.button,
+
+.post .categories a:hover,
+
+.pagination ul li a,
+#submit_comemnt,
+.flex-control-nav li a.flex-active ,
+.acc-title.acc-title-active,
+.toggle-title.toggle_current,
+.tab-title li.current
+ { background-color: #fff200;}
+
+
+
+.flex-direction-nav li a{ color: #000; }
+
+.color, .content a:hover,
+.sidebar a:hover,
+.flex-direction-nav li a:hover,
+.breadcrumbs a:hover,
+.txt_when_hover:hover
+{ color: #fff200; }
+
+
+.bodder-color{ border-color:  #fff200; }
+
+/* Header background */
+#header{ background: #fff200 ;}
+/*Header link and text color */
+header{ color: #fff;}
+.header-right-inner .social-icons li a.search-form-icon,
+.social-icons li a{ background-color: #333333; }
+
+
+/* container background */
+.container-bg{ background:  rgba(0,0,0,0.7)}
+
+/* FONT */
+body { background: #5a5a5a; font-size: 14px; font-family: 'Lato', sans-serif; color: #A7A7A7;  line-height:24px;}
+h1,h2,h3,h4,h5,h6 {font-weight: 400;color: #a7a7a7; font-family: 'Lato', sans-serif;}
+
+
+
+
+
+

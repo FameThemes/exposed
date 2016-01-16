@@ -1,0 +1,240 @@
+
+/*-----------------------------------------------------------------------------------*/
+/*	Responsive Grid (foundation)
+/*-----------------------------------------------------------------------------------*/
+
+.row .column, .row .columns{ -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+.container{ margin: 0px auto; padding: 0px 15px; max-width: 1008px; }
+
+.row { width: 1038px; max-width: 100%; margin: 0 auto; }
+.row .row { width: auto; max-width: none; min-width: 0; margin: 0 -15px; }
+
+.column, .columns { float: left; min-height: 1px; padding: 0 15px; position: relative; margin-bottom: 30px; }
+.column.wrapper, .columns.wrapper{ padding: 0px; }
+
+.row .one 		{ width: 8.333%;}
+.row .two 		{ width: 16.667%;}
+.row .three 	{ width: 25%;}
+.row .four 		{ width: 33.333%;}
+.row .five 		{ width: 41.667%;}
+.row .six 		{ width: 50%;}
+.row .seven 	{ width: 58.333%;}
+.row .eight 	{ width: 66.667%;}
+.row .nine 		{ width: 75%;}
+.row .ten 		{ width: 83.333%;}
+.row .eleven	{ width: 91.667%;}
+.row .twelve	{ width: 100%;}
+
+.full-width .row{ width:  100%; }
+
+img{ max-width: 100%; height: auto; }
+img { -ms-interpolation-mode: bicubic; }
+object, embed { max-width: 100%;  }
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Responsive Grid For Mobile
+/*-----------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 767px) {
+	body { -webkit-text-size-adjust: none; -ms-text-size-adjust: none;
+		width: 100%; min-width: 0; margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0; }
+	.container{ margin: 0px auto; max-width: 420px; }
+	.row { width: auto; min-width: 0; margin-left: 0; margin-right: 0; }
+	.row .column, .row .columns { width: 100%; float: none; }
+
+	.column:last-child, .columns:last-child { float: none; }
+	[class*="column"] + [class*="column"]:last-child { float: none; }
+
+	.column:before, .columns:before, .column:after, .columns:after { content: ""; display: table; }
+	.column:after, .columns:after { clear: both; }
+
+	/* Site Structure */
+	
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	Media Queries
+/*-----------------------------------------------------------------------------------*/
+
+	/* Smaller than standard 960 (devices and browsers) (ALL) */
+	@media only screen and (max-width: 959px) {
+		
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) (4)*/
+	@media only screen and (min-width: 769px) and (max-width: 959px) {
+	    #primary-nav-mobile, #primary-nav-mobile-a{ display: block;}
+      #primary-nav-id{ display: none;}
+      #site-logo{ padding-left: 70px; }
+         
+	}
+
+	/* All Mobile Sizes (devices and browser)(1,2,3) */
+	@media only screen and (max-width: 768px){
+		body { -webkit-text-size-adjust: none; -ms-text-size-adjust: none;
+		width: 100%; min-width: 0; margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0; }
+		.container{ margin: 0px auto; }
+		.row { width: auto; min-width: 0; margin-left: 0; margin-right: 0; }
+    /*
+		.row .column, .row .columns { width: 100%; float: none; }
+		.column:last-child, .columns:last-child { float: none; }
+		[class*="column"] + [class*="column"]:last-child { float: none; }
+    */
+
+		.column:before, .columns:before, .column:after, .columns:after { content: ""; display: table; }
+		.column:after, .columns:after { clear: both; }
+        
+        #site-logo{ padding-left:  55px;}
+        #primary-nav-mobile, #primary-nav-mobile-a{ display: block; }
+        #primary-nav-id{ display: none;}
+        #primary-nav-mobile-a{ }
+        
+        /* Navigator Image Flip */
+        .tf_thumbs { display: none; }
+        .tf_next, .tf_prev { right: 35px; }
+        .tf_prev { margin-bottom: 75px; }
+        /* Fix Bar Image Flow */
+        .fw-imageflow-wrap { margin-top: 0px !important; }
+        #imageFlow .bar { width: 20px; }
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) (3) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		#site-logo{width: 100%; text-align: center; height: 65px; margin-left:0px;  float: none; padding:0px;}
+        #site-logo h1{float: none; margin: 0 auto !important;}
+        #site-logo{ padding-left: inherit;}
+        .header-right{ width: 100%; float: none; margin: 0 auto; text-align: center;}
+        #header{ height: auto; }
+        .header-main{ padding-bottom: 15px;}
+        .main-nav{ float: none;  padding-left: 30px; padding-right: 30px; margin:  0 auto;}
+        #primary-nav-mobile-a{   }
+        #slidecaption{width:  auto; margin:  0px 30px;}
+        #slidecaption h1{ font-size: 35px; line-height: 35px;}
+        
+        .footer-inner{ margin: 0px 20px; }
+        .footer-left, .footer-right{ float: none; display: block; text-align: center; width: auto;}
+        .supersized-action{ display: none;}
+        .header-right-inner .searchform{ position: inherit; width: auto; margin: 13px auto 0px; top: auto; right:  auto;}
+        
+         .main-wrapper.full-width .isotope .item{ width :  auto !important; max-width: auto !important; padding:0px; float: none; margin-left: auto; margin-right: auto; 
+                position: relative !important; 
+                top: auto !important;
+                float: none;
+                transform: none !important;
+                -ms-transform: none !important; /* IE 9 */
+                -webkit-transform: none !important; /* Safari and Chrome */
+         }
+        
+        .page-title{ font-size: 28px; text-align: center;  padding-bottom : 5px;  padding-top: 0px; line-height: 30px;  }
+        .post  .post-title, .post  .post-title a{ font-size: 24px; line-height: 28px;}
+
+        .fw-flexslider .flex-direction-nav a{ margin-top: -30px;  width: 30px; height: 30px; font-size: 20px; line-height: 31px }
+
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) (1, 2) */
+	@media only screen and (max-width: 479px) {
+	   
+       	#site-logo{width: 100%; text-align: center; height: 65px; margin-left:0px;  float: none; padding:0px;}
+        #site-logo h1{float: none; margin: 0 auto !important;}
+        #site-logo{ padding-left: inherit;}
+        .header-right{ width: 100%; float: none; margin: 0 auto; text-align: center;}
+        #header{ height: auto; }
+        .header-main{ padding-bottom: 15px;}
+        .main-nav{ float: none;  padding-left: 30px; padding-right: 30px; margin:  0 auto;}
+        #primary-nav-mobile-a{   }
+        #slidecaption{width:  auto; margin:  0px 20px;  font-size: 20px; bottom: 31%;}
+      
+        #slidecaption h1{ font-size: 30px; line-height: 30px;}
+        .footer-inner{ margin: 0px 20px; }
+        .footer-left, .footer-right{ float: none; display: block; text-align: center; width: auto;}
+        .supersized-action{ display: none;}
+        .header-right-inner .searchform{ position: inherit; width: auto; margin: 13px auto 0px; top: auto; right:  auto;}
+        
+        .full-width .isotope .item{ width :  auto !important; max-width: auto !important; padding:0px;  margin-left: auto; margin-right: auto;
+            position: relative !important; top: auto !important; float: none;
+            transform: none !important;
+            -ms-transform: none !important; /* IE 9 */
+            -webkit-transform: none !important; /* Safari and Chrome */
+         }
+         
+         .page-title{ font-size: 28px; text-align: center;  padding-bottom : 5px;  padding-top: 0px; line-height: 30px; }
+         .post  .post-title, .post  .post-title a{ font-size: 20px; line-height: 24px;}
+
+         /*author details */
+         .author-details{ text-align: center;}
+         .author-details .avatar{ float: none; margin-bottom: 20px;}
+         .author-details .author-desc{ text-align: left; margin-left: 0px; }
+
+         /* comment */
+         ul.children{margin-left:0px;
+
+        .right, .left{ float: none; }
+        .site-content-inner{ padding-bottom: 74px; }
+        input[type="text"], input[type="password"]{ max-width: 100px; }
+
+        .fw-flexslider .flex-direction-nav a{ margin-top: -30px;  width: 30px; height: 30px; font-size: 20px; line-height: 31px }
+        .page-title-wrapper .breadcrumbs{ display:  none;}
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size SMALL phone (devices and browsers) (1) */
+	@media only screen and (min-width: 240px) and (max-width: 320px) {
+        	  #site-logo{width: 100%; text-align: center; height: 65px; margin-left:0px;  float: none; padding:0px;}
+            #site-logo h1{float: none; margin: 0 auto !important;}
+            .header-right{ width: 100%; float: none; margin: 0 auto; text-align: center;}
+            #site-logo{ padding-left: inherit;}
+            #header{ height: auto; }
+            .header-main{ padding-bottom: 15px;}
+            .main-nav{ float: none;  padding-left: 20px; padding-right: 20px; margin:  0 auto;}
+            #primary-nav-mobile-a{  }
+            #slidecaption{width:  auto; margin:  0px 20px;  font-size: 18px;  bottom: 35%;}
+           
+            #slidecaption h1{ font-size: 26px; line-height: 26px;}
+            .footer-inner{ margin: 0px 20px; }
+           .footer-left, .footer-right{ float: none; display: block; text-align: center; width:  auto;}
+           .supersized-action{ display: none;}
+           .header-right-inner .searchform{ position: inherit; width: auto; margin: 13px auto 0px; top: auto; right:  auto;}
+           .full-width .isotope {max-width:  auto !important; }
+           .full-width .isotope .item{ 
+               width :  auto !important; max-width: auto !important; padding:0px;  margin-left: auto; margin-right: auto;
+               position: relative !important;
+               top: auto !important;
+               float: none;
+               transform: none !important;
+                -ms-transform: none !important; /* IE 9 */
+                -webkit-transform: none !important; /* Safari and Chrome */
+            }
+
+          .full-width .isotope .item .item-inner{ margin:0px auto !important; max-width: auto !important; width: auto !important; }
+           
+           
+           .main-wrapper.container { padding: 0px;}
+           .page-title{ font-size: 24px; text-align: center; float: none;  padding-bottom : 5px;  padding-top: 15px; }
+
+           .post .post-title, .post .post-title a{ font-size: 20px; line-height: 24px;}
+
+           /* post meta */
+           .post .post-meta{ text-align: center; }
+           .post .post-meta .meta-left, .post .post-meta .read-more, .post .post-meta .share{ float:  none; }
+
+           .right ,.left{ float: none;  }
+           .site-content-inner{ padding-bottom: 74px; }
+
+          input[type="text"], input[type="password"]{ max-width: 100px; }
+
+           .fw-flexslider .flex-direction-nav a{ margin-top: -30px;  width: 30px; height: 30px; font-size: 20px; line-height: 31px }
+           .page-title-wrapper .breadcrumbs{ display:  none;}
+           
+	}
+    
+
+  @media only screen and (max-width: 479px) {
+      .fw-flexslider .flex-direction-nav a{ margin-top: -30px;  width: 30px; height: 30px; font-size: 20px; line-height: 31px }
+      .page-title-wrapper .breadcrumbs{ display:  none;}
+  }
+   
+
+

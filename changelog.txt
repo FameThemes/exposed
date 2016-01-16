@@ -1,0 +1,82 @@
+Version 1.5
+ - Add Auto update function
+ - Add One click to import demo content
+ - Add theme support title tag from WP 4.x
+ - Bugs fixed
+
+
+Version 1.4
+- Fixed bug: option upload for this post/page not working
+    Changed file:
+        /st-framework/admin/admin-scripts.php
+
+- Update left sidebar below content in mobile mod
+    Changed file:
+        style.css
+        templates/layout/layout-left-sidebar.php
+
+- Remove stTranslate. Use Loco Translate plugin instead https://wordpress.org/plugins/loco-translate/
+    Changed file: st-framework/st-load.php
+- Fixed shortcodes issue in WP editor with WordPress 3.9
+    Changed file:
+        st-framework/admin/editor/edittor_plugin.js
+        st-framework/admin/editor/tinymce.js
+- Update admin options use AJAX to save.
+    Changed file:
+        st-framework/admin/admin-functions.php
+        st-framework/admin/admin-int.php
+        st-framework/admin/admin-interface.php
+        st-framework/admin/css/admin-style.css
+
+- Remove empty lines
+    Changed file:
+        st-framework/admin/admin-functions.php
+        st-framework/admin/admin-int.php
+        st-framework/admin/admin-interface.php
+        st-framework/admin/admin-menu.php
+        st-framework/admin/admin-meta-box.php
+        st-framework/admin/admin-sidebar.php
+        st-framework/admin/ajax-slidebar-generator.php
+        st-framework/admin/css/admin-style.css
+        st-framework/admin/editor/edittor_plugin.js
+        st-framework/admin/editor/tinymce.css
+        st-framework/admin/editor/tinymce.js
+        st-framework/admin/page-builder/page-builder-ajax-media.php
+        st-framework/admin/page-builder/page-builder-items-functions.php
+        st-framework/admin/page-builder/page-builder-items-generate-code.php
+        st-framework/admin/page-builder/page-builder-meta.php
+        st-framework/admin/page-builder/page-builder.css
+        st-framework/lib/lib-functions.php
+        st-framework/lib/shortcode.php
+        st-framework/lib/sliders-functions.php
+        st-framework/lib/st-filters.php
+        st-framework/st-load.php
+
+
+
+
+Version 1.3
+    - Fixed Fixed the loading icon still display when items displayed, hover image in black and white gallery
+        Changed file:/st-framework/lib/template-functions.php
+        Changed file:/style.css
+        Changed file:/assets/js/exposed.js
+    - Fixed shortcode not work in text editer popup
+        Changed file:/st-framework/admin/editor/dialog.php
+        
+
+Version 1.2
+ - New admin option interface
+    Changed file: /st-framework/admin/css/admin-style.css
+    Changed file: /st-framework/admin/admin-interface.php
+    Changed file: /st-framework/admin/images/logo.jpg
+- Fixed IE8 issue
+    Changed file: header.php
+    Added file: /assets/js/html5shiv.js
+    Added file: /assets/js/respond.min.js
+- Fixed Google+ icon
+    Changed file: header.php
+
+
+Version 1.1
+- NEW FEATURE : Add slider/image background for each page
+- FIXED : Gallery black & white effect bug

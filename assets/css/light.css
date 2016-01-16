@@ -1,0 +1,40 @@
+/***************  LIGHT SKIN   ******************/
+
+/* Global Body */
+	body{background: #f5f5f5;color:#636363;}
+
+/* Header */
+	.header-main { background: none repeat scroll 0 0 #ffffff;}
+	.primary-nav ul li.current-menu-item a{color: #000000;}
+	.primary-nav ul li a:hover, .primary-nav > ul > li:hover > a{color: #000000;}
+	.primary-nav.slideMenu ul li a{font-weight: 500;font-size: 13px;}
+	.header-right-inner .social-icons li a.search-form-icon, .social-icons li a{background-color: #cccccc;}
+
+	/* Navigation */
+	.primary-nav ul li ul { background: none repeat scroll 0 0 #FFFFFF; }
+	.primary-nav.slideMenu ul li ul li a {color:#626262;}
+	.primary-nav.slideMenu ul li ul li a:hover,
+    .primary-nav.slideMenu > ul >li > ul > li:hover > a{color:#000000; background: #f8f9f9;}
+    .post .post-meta, .sidebar .widgettitle, .page-title.has-border, .page-title-wrapper.has-border { border-color: #e5e5e5 !important; }
+
+/* Main Content */
+	.isotope .item-inner{box-shadow: none;}
+	.isotope .caption { background: none repeat scroll 0 0 #FFFFFF;}
+	.isotope .caption h3, .isotope .caption h3 a {color:#636363;}
+	.gallery-details { background: none repeat scroll 0 0 #ffffff; color: #636363;}
+	.gallery-desc .g-title { color: #252525;}
+	.page-title, .page-title-wrapper { color: #252525;}
+	.breadcrumbs a ,.sidebar a, .post-content a,.comments-list a { color: #252525; }
+	.post .post-title, .post .post-title a { color: #252525;}
+	.post .categories a { background: none repeat scroll 0 0 #cccccc;}
+	.pagination ul li a.page-current, .pagination ul li a:hover { background: none repeat scroll 0 0 #cccccc;}
+	.container-bg {background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8) !important}
+	.divider{background-color: #e5e5e5 !important;}
+	.tab-content{border-color:#e5e5e5;}
+
+
+
+/* Footer */
+    #footer { background: rgba(255,255,255, 0.8);}
+
+
